@@ -57,8 +57,8 @@ public class EdulixProfileDataCapture
 
   public static void main(String[] args) throws IOException, InterruptedException
   {
-    String confPath = "/Users/kaushik/work/git/fk-erp-inventory-planning/deb/etc/fk-erp-inventory-planning/config";
-    String logPath = "/Users/kaushik/work/git/fk-erp-inventory-planning/deb/var/log";
+    String confPath = "/Users/kaushik/work/git/crawler/deb/etc/crawler/config";
+    String logPath = "/Users/kaushik/work/git/crawler/deb/var/log";
 
     Global.init(EdulixProfileDataCapture.class, confPath, logPath);
     EdulixProfileDataCapture epd = new EdulixProfileDataCapture();
